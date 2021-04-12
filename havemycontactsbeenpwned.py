@@ -27,7 +27,7 @@ if __name__ == '__main__':
                                         'quinta': 'string', 'email': 'string', 'birth': 'string'}) #Dataframes list
 
     phones= pd.read_csv(contacts_file, header = 0, sep = ';', decimal = ',', encoding = 'utf-8', keep_default_na = False, dtype =
-                                       {'Contact': 'string', 'Phone': 'string'}) #Dataframes list
+                                       {'Name': 'string', 'Phone': 'string'}) #Dataframes list
 
     print("Leak Shape:"+str(leak.shape))
     print("Contacts Shape:"+str(phones.shape))
