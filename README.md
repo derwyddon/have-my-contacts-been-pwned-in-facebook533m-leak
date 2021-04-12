@@ -6,3 +6,5 @@ Your csv contacts file: {'Name': 'string', 'Phone': 'string'}
 The csv leaks file:  {'phone': 'string', 'profile-id': 'string', 'name': 'string', 'family-name': 'string', 'genre': 'string',
                                         'location-now': 'string', 'location-birth': 'string', 'single-status': 'string', 'employment': 'string',
                                         'graduation-date': 'string', 'email': 'string', 'birth-date': 'string'}
+
+phone format:international_code number (without separator between both fiels: 349000000, like in the csv leak file)
