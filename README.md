@@ -12,4 +12,4 @@ The output is a csv file with format (includes the Name from our csv contacts fi
                                         'location-now': 'string', 'location-birth': 'string', 'single-status': 'string', 'employment': 'string',
                                         'graduation-date': 'string', 'email': 'string', 'birth-date': 'string', 'Name': 'string'}
 
-The csv uses the phone format:international_code number (without any separator between fiels or numbers: 349000000, like in the csv leak file)
+The csv uses the phone format: international_code number (without any separator between fiels or numbers: 34987654321, like in the csv leak file)
